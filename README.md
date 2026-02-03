@@ -18,10 +18,3 @@ The model is evaluated using:
 * **Language:** Python 3.x
 * **Data Handling:** Pandas, NumPy
 * **Machine Learning:** Scikit-Learn (RandomForestRegressor)
-
-## 📂 Installation & Usage
-
-1. **Clone the repo:**
-   ```bash
-   git clone [https://github.com/YOUR_USERNAME/Hockey-Standings-Predictor.git](https://github.com/YOUR_USERNAME/Hockey-Standings-Predictor.git)
-   cd Hockey-Standings-Predictor
