@@ -4,6 +4,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error
 
 def evaluate_full_metrics(target_year):
+    #the all_teams.csv is too big for github, the data comes from MoneyPuck.com
     df = pd.read_csv('all_teams.csv')
     df = df[(df['situation'] == 'all') & (df['playoffGame'] == 0)].copy()
 
